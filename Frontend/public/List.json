@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Magic Tales",
+        "title": "A journey into the world of magic and wonder.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Legends of the Past",
+        "title": "Discover the forgotten legends of history.",
+        "price": "10",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fairyland Adventures",
+        "title": "Step into a world of fantasy and fairy tales.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 4,
+        "name": "The Lost Chronicles",
+        "title": "Ancient stories waiting to be uncovered.",
+        "price": "15",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Children's Wonder",
+        "title": "A delightful book for young minds.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Enchanted Realms",
+        "title": "Mystical tales from enchanted lands.",
+        "price": "20",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mystic Stories",
+        "title": "Short stories filled with mystery and magic.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Golden Fables",
+        "title": "A collection of timeless fables.",
+        "price": "25",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Moonlight Stories",
+        "title": "Tales best read under the moonlit sky.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 10,
+        "name": "The Forgotten Kingdom",
+        "title": "Unravel the mysteries of a lost civilization.",
+        "price": "18",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Adventures Beyond",
+        "title": "A thrilling adventure awaits beyond the horizon.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Treasures of the Deep",
+        "title": "Stories of legendary treasures hidden in the sea.",
+        "price": "22",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 13,
+        "name": "The Eternal Journey",
+        "title": "An epic tale of adventure and discovery.",
+        "price": "0",
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": 14,
+        "name": "The Secret Spellbook",
+        "title": "Unlock the secrets of ancient spells and magic.",
+        "price": "30",
+        "category": "paid",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    }
+]
