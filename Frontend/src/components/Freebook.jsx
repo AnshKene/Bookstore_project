@@ -1,20 +1,21 @@
 import React, { useEffect, useState } from "react";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
 import axios from "axios";
-
 import Cards from "./Cards";
+
 function Freebook() {
   const [book, setBook] = useState([]);
+
   useEffect(() => {
     const getBook = async () => {
       try {
         const res = await axios.get("http://localhost:4001/book");
 
-        const data = res.data.filter((data) => data.category === "Free");
+        // Filter only free books with category: "free" and price === 0
+        const data = res.data.filter((item) => item.category === "free" && item.price === 0);
+        
         console.log(data);
         setBook(data);
       } catch (error) {
@@ -58,27 +59,27 @@ function Freebook() {
       },
     ],
   };
-  return (
-    <>
-      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
-          </p>
-        </div>
 
-        <div>
-          <Slider {...settings}>
-            {book.map((item) => (
-              <Cards item={item} key={item.id} />
-            ))}
-          </Slider>
-        </div>
+  return (
+    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div>
+        <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+        <p>
+          Explore our free courses and books. Learn without any cost and enhance your skills today!
+        </p>
       </div>
-    </>
+
+      <div>
+        <Slider {...settings}>
+          {book.length > 0 ? (
+            book.map((item) => <Cards item={item} key={item.id} />)
+          ) : (
+            <p className="text-center text-gray-500">No free books available.</p>
+          )}
+        </Slider>
+      </div>
+    </div>
   );
 }
+
 export default Freebook;
