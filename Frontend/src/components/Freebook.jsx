@@ -14,7 +14,7 @@ function Freebook() {
         const res = await axios.get("http://localhost:4001/book");
 
         // Filter only free books with category: "free" and price === 0
-        const data = res.data.filter((item) => item.category === "free" && item.price === 0);
+        const data = res.data.filter((item) => item.category === "free" && item.price === 0);     
         
         console.log(data);
         setBook(data);
